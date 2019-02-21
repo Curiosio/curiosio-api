@@ -52,7 +52,7 @@ Valid `api_key` to be provided.
 ### Example
 
 ```json
-{ "countries": "AU",
+{ "countries": "FR",
   "start_date": "2019/03/06",
   "days": 15,
   "budget": 3000,
@@ -65,9 +65,9 @@ Valid `api_key` to be provided.
   "results": 3,
   "avoid": ["Nice", "Marseille"],
   "thru": 
-   [ { "id": "Paris", "iso": "AU", "disp": "Paris", "type": "city" },
-     { "id": "Toulouse", "iso": "AU", "disp": "Toulouse", "type": "city" },
-     { "id": "Lyon", "iso": "AU", "disp": "Lyon", "type": "city" } ]
+   [ { "id": "Paris", "iso": "FR", "disp": "Paris", "type": "city" },
+     { "id": "Toulouse", "iso": "FR", "disp": "Toulouse", "type": "city" },
+     { "id": "Lyon", "iso": "FR", "disp": "Lyon", "type": "city" } ]
 }
 ```
 
