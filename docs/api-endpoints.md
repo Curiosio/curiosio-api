@@ -25,7 +25,7 @@ Valid `api_key` to be provided.
 
 | Name          | Type      | Description                                                                   |
 | ------------- | --------- | ----------------------------------------------------------------------------- |
-| `countries` | `string`  | List of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) codes, separated by `|` | 
+| `countries` | `string`  | List of [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) codes, separated by \| (pipe) symbol | 
 | `start_date`  | `string`  | Trip start date in YYYY/MM/DD format   | 
 | `days`        | `integer` | Planned trip duration, in full days. Please use range of 3 - 28 days.  | 
 | `budget`      | `integer` | Expected trip budget, in US dollars. Please use range of $100 - $10,000 | 
