@@ -9,7 +9,7 @@
 ## Get Trip
 
 Get trip, optimized for curiosity by time and budget. 
-Most of the parameters are intuitive. Below is visual mapping of most important parameters to [Curiosio website](http://beta3.ingeenee.com/)
+Most of the parameters are intuitive. Below is visual mapping of most important parameters to [Curiosio website](https://curiosio.com/)
 
 ![Get Trip Mapping](img/api-get-trip.png)
 
@@ -33,11 +33,11 @@ Valid `api_key` to be provided.
 | `children`      | `integer` | Number of children, from 0 to 4 | 
 | `cars`        | `integer` | Number of cars to rent, 1 or 2 | 
 | `comfort`        | `string` | Desired comfort level, one of following: `frugal`, `normal`, `upscale` | 
-| `intensity`        | `string` | Desired curiosity level, one of following: `relaxed`, `normal`, `vigorous` 
-| `mode`        | `string` | 'narrow' or 'wide'. Please use 'narrow' search for faster results | 
+| `curiosity`        | `string` | Desired curiosity level, one of following: `relaxed`, `normal`, `vigorous` 
 | `results`      | `integer` | Number of search results. The results are sorted by relevance, and requested number of trips is returned. Please use range from 1 to 50.   | 
 | `avoid` | `list`  | List of strings, each item represents destination to avoid | 
 | `thru` | `list`  | List of travel-thru destinations (see below) | 
+| `geometry` | `string` | Polygon in WKT format that defines geo region. Trip is going to be inside that polygon. |
 
 ### Travel-thru destination item
 
